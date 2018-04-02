@@ -7,7 +7,7 @@ function produceDrivingRange(range){
     if (Math.abs(start_range-end_range) < 10){
         return `within range by ${range - Math.abs(start_range-end_range)}`
     }else {
-        return `${range-Math.abs(start_range-end_range))} blocks out of range.`
+        return `${range-Math.abs(start_range-end_range)} blocks out of range.`
     }
   }
 }
