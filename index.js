@@ -12,6 +12,6 @@ function produceDrivingRange(range){
   }
 }
 
-function produceTipCalculator(){
-  
+function produceTipCalculator(multiplier){
+  return function()
 }
