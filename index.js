@@ -13,5 +13,7 @@ function produceDrivingRange(range){
 }
 
 function produceTipCalculator(multiplier){
-  return function()
+  return function(baserate){
+    return multiplier * baserate
+  }
 }
